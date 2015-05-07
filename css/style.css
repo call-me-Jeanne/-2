@@ -4,6 +4,9 @@ body {
     background-color: #ffffff;
     height: 100%; /*footer*/
 }
+.background_color {
+    background-color: #f4f2ec;
+}
 html {
     height: 100%; /*footer*/
 }
@@ -20,6 +23,9 @@ html {
 }
 .col-xs-6 {
     float: left;
+}
+.head {
+    float: right;
 }
 .nav .open > a,
 .nav .open > a:hover,
@@ -147,16 +153,16 @@ a {
 label {
     color: #8c8c8c;
 }
-.contactstyle {
+.contact_style {
     font-weight: bold;
     font-size: 24px;
 }
-.contactstyle>a>p {
+.contact_style>a>p {
     color: #d14343;
     text-decoration: none;
     margin-bottom: -1px;
 }
-.contactstyle>a {
+.contact_style>a {
     text-decoration: none;
 }
 address {
@@ -170,7 +176,7 @@ address>strong {
 address>a {
     color: #d14343;
 }
-.messagestyle {
+.message_style {
     margin-top: -120px;
 }
 .btn-default {
@@ -184,7 +190,7 @@ address>a {
 .brd_btm3 {
     border-bottom: solid #bebebe;
 }
-.col-xs-12.contactstyle {
+.col-xs-12.contact_style {
     width: 150px;
 }
 .page-buffer{ /*footer*/
